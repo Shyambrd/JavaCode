@@ -32,6 +32,7 @@ public class ArraySorting {
 			}
 		}
 		
+		
 		System.out.println("The sorted array is :");
 		showArray(arr);
 	}
