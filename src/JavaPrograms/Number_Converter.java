@@ -5,7 +5,7 @@ public class Number_Converter {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int n = 47;
+		int n = 66;
 		System.out.println("Enter digit to Covert :"+n);
 		convertDigit(n);
 		
