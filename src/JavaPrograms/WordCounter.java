@@ -3,25 +3,30 @@ package JavaPrograms;
 import java.util.ArrayList;
 
 public class WordCounter {
-
+	static ArrayList a = new ArrayList();
 	static ArrayList smallWords = new ArrayList();
 	static ArrayList BigWords = new ArrayList();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ArrayList a = new ArrayList();
+
+		
+		//System.out.println(a);
+		createList();
+		countWords(a);
+		
+		
+	}
+
+	private static void createList() {
+		// TODO Auto-generated method stub
+		
 		a.add("Classes");
 		a.add("Object");
 		a.add("Abstraction");
 		a.add("Inheritance");
 		a.add("Polymorphism");
 		a.add("Encapsulation");
-		
-		//System.out.println(a);
-		
-		countWords(a);
-		
-		
 	}
 
 	private static void countWords(ArrayList a) {
